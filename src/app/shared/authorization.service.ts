@@ -4,8 +4,8 @@ import { Observable } from 'rxjs/internal/Observable';
 //import { Observable } from 'rxjs/Observable';
 
 const poolData = {
-  UserPoolId: 'us-east-1_iP3ZtAyR4', // Your user pool id here
-  ClientId: '525knh2pc2irtikv0853t1227s' // Your client id here  
+  UserPoolId: 'us-east-2_Ehm1oyCmj', // Your user pool id here
+  ClientId: '5rhdrp4q8f34eqcj1pasdkrihs' // Your client id here  
 };
 
 const userPool = new CognitoUserPool(poolData);
